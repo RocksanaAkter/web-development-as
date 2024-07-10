@@ -1,0 +1,50 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(129, 126, 126);
+}
+
+.Top-Banner {
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+
+
+.top-banner-bg {
+    display: flex;
+    align-items: center;
+    height: 40rem;
+    background-size: cover !important;
+    margin: 0;
+    border: 0;
+
+}
+
+.heading1{
+font-size: 50px;
+color: black
+}
+
+p{
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+.header-btn{
+    background-color: rgb(17, 17, 17);
+    color: azure;
+    padding: 15px 30px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 0;
+}
+

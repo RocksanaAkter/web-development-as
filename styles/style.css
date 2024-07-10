@@ -109,4 +109,51 @@ iframe{
     margin-top: 20px;
 }
 
+/* forth-part */
+.targets{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+   
+}
 
+.targets div{
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.target-btn{
+   
+    color: black;
+    font-weight: bold;
+}
+h3{
+    font-size: 23px;
+}
+
+#t-1{
+background-color: #fcebeb;
+}
+
+#t-2{
+    background-color: rgb(241, 241, 255);
+}
+
+#t-3{
+    background-color: #fffeec;
+}
+
+.fifth-part{
+    padding: 40px;
+    align-items: center;
+    height: 15rem;
+    background-size: cover !important;
+    margin-top: 100px;
+    border: 0;
+    border-radius: 15px;
+}
+
+.fifth-part h3{
+    color: white;
+}

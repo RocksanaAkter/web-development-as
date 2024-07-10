@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-family: 'Rubik', sans-serif;
-    margin: 0;
+   
 }
 
 p {
@@ -34,7 +34,7 @@ color: black
 }
 
 p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600px;
 }
 
@@ -47,4 +47,60 @@ p{
     font-weight: 700;
     margin-top: 0;
 }
+
+
+main{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.second-part{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    padding: 50px;
+    border: 3px red solid;
+    background-color: #f7f2f2ae;
+    border-radius: 5px;
+}
+
+.second-top{
+    margin-bottom: 40px;
+}
+
+
+h1{
+    font-weight: 600;
+    font-size: 35px;
+}
+h2{
+    color: rgb(99, 100, 103);
+    font-weight: 600;
+}
+
+.swap{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    
+    margin: 30px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+#swap-2{
+    justify-content: flex-start;
+    gap: 50px
+}
+
+.learn-btn{
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(125, 123, 123);
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid rgb(125, 123, 123);
+    border-radius: 2px;
+}
+
 

@@ -50,7 +50,7 @@ p{
 
 
 main{
-    width: 70%;
+    width: 75%;
     text-align: center;
     margin: 0 auto;
 }
@@ -80,8 +80,7 @@ h2{
 .swap{
     display: flex;
     justify-content: space-between;
-    padding: 30px;
-    
+    padding: 30px;   
     margin: 30px;
     background-color: white;
     border-radius: 7px;
@@ -150,6 +149,7 @@ background-color: #fcebeb;
     height: 13rem;
     background-size: cover !important;
     margin-top: 100px;
+    margin-bottom: 100px;
     border: 0;
     border-radius: 15px;
     
@@ -179,5 +179,36 @@ input{
     border-radius: 8px;
     border: 0;
     margin-right: 8px;
+  
+}
+
+footer{
+    background-color:  #f7f2f2ae;
+    margin-bottom: 0;
+    
+    
+}
+
+footer section{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+
+.footer-icon{
+    display: flex;
+    gap: 13px;
+}
+
+.footer-icon div{
+    font-size: 30px;
+    border-radius: 25px;
     
 }

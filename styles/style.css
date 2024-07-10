@@ -34,7 +34,7 @@ color: black
 }
 
 p{
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600px;
 }
 
@@ -147,13 +147,37 @@ background-color: #fcebeb;
 .fifth-part{
     padding: 40px;
     align-items: center;
-    height: 15rem;
+    height: 13rem;
     background-size: cover !important;
     margin-top: 100px;
     border: 0;
     border-radius: 15px;
+    
 }
 
 .fifth-part h3{
     color: white;
+    font-size: 30px;
+}
+
+.fifth-part p{
+    color:#f1f1eb;
+    margin-bottom: 20px;
+}
+
+.fifth-part button{
+border-radius: 8px;
+padding: 13px 25px;
+font-weight: 600;
+background-color: white;
+font-size: 18px;
+border: 0;
+}
+
+input{
+    padding: 15px 100px;
+    border-radius: 8px;
+    border: 0;
+    margin-right: 8px;
+    
 }
